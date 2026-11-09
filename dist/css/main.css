@@ -833,14 +833,15 @@ header {
   perspective: 1000px;
 }
 .photos .photo-grid .row .column:first-child {
-  width: 60%;
-}
-.photos .photo-grid .row .column:first-child .img-box {
   aspect-ratio: 246/132;
   width: 100%;
   max-width: 246px;
+}
+.photos .photo-grid .row .column:first-child .img-box {
   overflow: hidden;
   background-color: #5a3a21;
+  width: 100%;
+  height: 100%;
 }
 .photos .photo-grid .row .column:first-child .img-box img {
   width: 100%;
@@ -848,14 +849,15 @@ header {
   object-fit: cover;
 }
 .photos .photo-grid .row .column:last-child {
-  width: 40%;
+  width: 100%;
+  aspect-ratio: 164/134;
+  max-width: 164px;
 }
 .photos .photo-grid .row .column:last-child .img-box {
-  aspect-ratio: 164/134;
-  width: 100%;
-  max-width: 164px;
   background-color: #5a3a21;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 .photos .photo-grid .row .column:last-child .img-box img {
   width: 100%;
@@ -929,10 +931,10 @@ header {
   .photos .photo-grid .row {
     max-width: 86.4vw;
   }
-  .photos .photo-grid .row .column:first-child .img-box {
+  .photos .photo-grid .row .column:first-child {
     max-width: 49.2vw;
   }
-  .photos .photo-grid .row .column:last-child .img-box {
+  .photos .photo-grid .row .column:last-child {
     max-width: 32.8vw;
   }
 }
