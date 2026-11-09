@@ -145,6 +145,7 @@
         color: $secondary-color;
     }
 
+
     @media (max-width: 500px) {
         h2 {
             font-size: calc((19.68px / 500px) * 100vw);
@@ -170,6 +171,21 @@
                     .img-box {}
                 }
             }
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            width: calc((24 / 500) * 100vw);
+        }
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            right: 6%;
+        }
+
+        .swiper-button-prev,
+        .swiper-rtl .swiper-button-next {
+            left: 6%;
         }
     }
 }

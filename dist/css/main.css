@@ -937,6 +937,18 @@ header {
   .photos .photo-grid .row .column:last-child {
     max-width: 32.8vw;
   }
+  .photos .swiper-button-prev,
+  .photos .swiper-button-next {
+    width: 4.8vw;
+  }
+  .photos .swiper-button-next,
+  .photos .swiper-rtl .swiper-button-prev {
+    right: 6%;
+  }
+  .photos .swiper-button-prev,
+  .photos .swiper-rtl .swiper-button-next {
+    left: 6%;
+  }
 }
 
 .rsvp {
