@@ -41,8 +41,9 @@
                 width: 60%;
 
                 .img-box {
+                    aspect-ratio: 246 / 132;
                     width: 100%;
-                    height: 100%;
+                    max-width: 246px;
                     overflow: hidden;
                     background-color: $secondary-color;
 
@@ -59,8 +60,9 @@
                 width: 40%;
 
                 .img-box {
+                    aspect-ratio: 164 / 134;
                     width: 100%;
-                    height: 100%;
+                    max-width: 164px;
                     background-color: $secondary-color;
                     overflow: hidden;
 
@@ -153,6 +155,18 @@
         .photo-grid {
             .row {
                 max-width: calc((432 / 500) * 100vw);
+
+                .column:first-child {
+                    .img-box {
+                        max-width: calc((246 / 500) * 100vw);
+                    }
+                }
+
+                .column:last-child {
+                    .img-box {
+                        max-width: calc((164 / 500) * 100vw);
+                    }
+                }
             }
         }
     }

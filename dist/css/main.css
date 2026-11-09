@@ -836,8 +836,9 @@ header {
   width: 60%;
 }
 .photos .photo-grid .row .column:first-child .img-box {
+  aspect-ratio: 246/132;
   width: 100%;
-  height: 100%;
+  max-width: 246px;
   overflow: hidden;
   background-color: #5a3a21;
 }
@@ -850,8 +851,9 @@ header {
   width: 40%;
 }
 .photos .photo-grid .row .column:last-child .img-box {
+  aspect-ratio: 164/134;
   width: 100%;
-  height: 100%;
+  max-width: 164px;
   background-color: #5a3a21;
   overflow: hidden;
 }
@@ -926,6 +928,12 @@ header {
   }
   .photos .photo-grid .row {
     max-width: 86.4vw;
+  }
+  .photos .photo-grid .row .column:first-child .img-box {
+    max-width: 49.2vw;
+  }
+  .photos .photo-grid .row .column:last-child .img-box {
+    max-width: 32.8vw;
   }
 }
 
