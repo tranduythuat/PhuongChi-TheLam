@@ -669,8 +669,8 @@
     });
 
     const sheetURL = formType === "nhatrai"
-      ? "?sheet=nha_trai"
-      : "?sheet=nha_gai";
+      ? "https://script.google.com/macros/s/AKfycbxqjlj3MXg9rzKcg-4XSdg24aR9zObC2iNDPQDGD9VtS-pFMlitYMFrDTyD_wzF0Og6vQ/exec?sheet=nha_trai"
+      : "https://script.google.com/macros/s/AKfycbxqjlj3MXg9rzKcg-4XSdg24aR9zObC2iNDPQDGD9VtS-pFMlitYMFrDTyD_wzF0Og6vQ/exec?sheet=nha_gai";
 
     try {
       const res = await fetch(sheetURL, {
