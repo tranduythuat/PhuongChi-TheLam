@@ -349,6 +349,12 @@ header {
   perspective: 1000px;
   padding-bottom: 15%;
 }
+.letter-section .content.nhagai {
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/PhuongChi-TheLam/letter_nhagai.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @media (max-width: 500px) {
   .letter-section .content .subtext {
     font-size: 4.2vw;
