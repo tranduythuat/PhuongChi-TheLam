@@ -52,6 +52,8 @@ section {
   position: relative;
   overflow-x: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.309);
+  display: none;
+  opacity: 0;
 }
 
 .navbar input[type=checkbox],
@@ -332,7 +334,7 @@ header {
 .letter-section .content {
   width: 100%;
   aspect-ratio: 500/891;
-  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/quyen-phu/letter.jpg");
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/PhuongChi-TheLam/letter_nhatrai.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1047,6 +1049,7 @@ header {
   padding: 3% 4%;
   box-sizing: border-box;
   outline: none;
+  resize: none;
   margin-bottom: 8%;
 }
 .rsvp .form-group.options-group {

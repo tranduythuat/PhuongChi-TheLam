@@ -804,7 +804,7 @@
 
   function init() {
     gsap.registerPlugin(ScrollTrigger);
-    // initPage();
+    initPage();
     initMenu();
     // initLetterAnimation();
     initAnimations();
